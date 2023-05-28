@@ -2,6 +2,7 @@ body, html{
     margin:0;
     padding:0;
     font-family: 'Montserrat', sans-serif;
+    user-select: none;
 }
 
 section {
@@ -9,9 +10,11 @@ section {
 }
 
 .hero {
-    background-color: #1c1d25;
+    /* background-color: #1c1d25; */
+    background-image: url('imgs/IMG_1658.jpg');
+    background-size: cover;
     height: 100vh;
-    color: white;
+    color: #1c1d2592;
     font-size: 40px;
 }
 
@@ -25,7 +28,7 @@ footer {
 nav {
     display: flex;
     justify-content: right;
-    margin-right: 20px;
+    /* background-color: #1c1d251e; */
 }
 
 ul {
@@ -34,6 +37,7 @@ ul {
     width: 500px;
     justify-content: space-between;
     font-size: 30px;
+    margin-right: 100px;
 }
 
 ul.show {
@@ -113,6 +117,12 @@ a, a:visited, a:hover, a:active {
 }
 
 .nav-link, .nav-link:visited, .nav-link:hover, .nav-link:active {
+    color: #1c1d2592;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+.nav-link-ab, .nav-link-ab:visited, .nav-link-ab:hover, .nav-link-ab:active {
     color: white;
     text-decoration: none;
     
@@ -210,6 +220,13 @@ hr {
        padding:0;
 
     }
-}
 
+    .nav-link, .nav-link:visited, .nav-link:hover, .nav-link:active {
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: larger;
+    }
+
+}
 
