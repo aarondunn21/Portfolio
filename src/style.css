@@ -190,9 +190,14 @@ hr {
     display: none;
 }
 
-.hamburger:focus{
+.hamburger:focus {
     outline: 0;
 }
+
+/* .subtext {
+    padding: 40px;
+} */
+
 
 @media only screen and (max-width: 1000px) {
     .hamburger {
