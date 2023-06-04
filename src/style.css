@@ -10,9 +10,9 @@ section {
 }
 
 .hero {
-    /* background-color: #1c1d25; */
-    background-image: url('imgs/IMG_1658.jpg');
+    /* background-image: url('imgs/IMG_1658.jpg'); */
     background-size: cover;
+    background-color: #1c1d2571;
     height: 100vh;
     color: #1c1d2592;
     font-size: 40px;
